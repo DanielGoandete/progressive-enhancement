@@ -1,6 +1,57 @@
 
-
+/* organizing all tables */
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+/* organizing fonts and colors */
+p {
+	font-size: 15px;
+	font-family: Cursive;
+	color: rgb(37, 26, 37);
+}
+
+/* organizing body */
+body{
+    margin: auto;
+    max-width: 90%;
+    background: rgb(236,225,84);
+    background: linear-gradient(90deg, rgba(236,225,84,1) 0%, rgba(250,44,44,1) 50%, rgba(252,176,69,1) 100%);
+   /* border:3px solid #5a4b4b;*/
+}
+
+/* organizing titles on center */
+.center {
+    text-align: center;
+}
+
+/* organizing first image */
+.img1 {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+/* organizing second image */
+.img2 {
+  float: right;
+  margin: 0 10px 10px 0;
+}
+
+p.clear{
+  clear: both;
+}
+
+/* put the notification locked on the botton */
+.notification{
+  background:#FFFFDD;
+  border:3px solid #DDDDCC;
+  width:300px;
+  font-weight:bold;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  color: #333300;
+  
+  /* rajoute le code nécessaire ici*/
 }
